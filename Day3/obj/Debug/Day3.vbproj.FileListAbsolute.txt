@@ -12,3 +12,15 @@ C:\Users\cmess\source\repos\Day3\obj\Debug\Day3.exe
 C:\Users\cmess\source\repos\Day3\obj\Debug\Day3.xml
 C:\Users\cmess\source\repos\Day3\obj\Debug\Day3.pdb
 C:\Users\cmess\source\repos\Day3\obj\Debug\Day3.Form2.resources
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\bin\Debug\Day3.exe.config
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.exe
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.xml
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.pdb
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\bin\Debug\Day3.exe
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\bin\Debug\Day3.pdb
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\bin\Debug\Day3.xml
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.vbprojResolveAssemblyReference.cache
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.Form1.resources
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.Form2.resources
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.Resources.resources
+C:\Code_Net4.0\GitHub\TournamentBracket\Day3\obj\Debug\Day3.vbproj.GenerateResource.Cache

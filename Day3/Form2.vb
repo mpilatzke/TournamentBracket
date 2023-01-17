@@ -326,7 +326,7 @@ Public Class Form2
         End Sub
 
         Public Sub updatedb()
-            Using con As New SqlConnection("Server=localhost\SQLEXPRESS; Database = EthansDB; Integrated Security=true")
+            Using con As New SqlConnection(My.Settings.EthansDBConnectionString)
                 Dim rowsAffected As Integer
 
                 Using cmd As New SqlCommand("UPDATE PlayerDB Set  Playername=@name , GamerTag=@tag, Wins=@wins, Losses=@losses WHERE Playername = @name", con)
@@ -348,17 +348,17 @@ Public Class Form2
 
     End Class
     Public Function QueryDatabaseServer(name As String) As DataTable
-        Dim connectionString As String = "Server=localhost\SQLEXPRESS; Database = EthansDB; Integrated Security=true"
+        Dim connectionString As String = My.Settings.EthansDBConnectionString
         Dim queryString As String = "SELECT [Playername]
           ,[GamerTag]
           ,[Wins]
           ,[Losses]
-      FROM [dbo].[PlayerDB]WHERE Playername=" + "'" + name + "'"
+      FROM [dbo].[PlayerDB] WHERE Playername=" + "'" + name + "'"
 
 
         Using conn As New SqlConnection(connectionString)
             Using cmd As New SqlCommand(queryString, conn)
-                cmd.Parameters.AddWithValue(name, name)
+                'cmd.Parameters.AddWithValue(name, name)
 
                 conn.Open()
                 Dim reader As SqlDataReader = cmd.ExecuteReader()

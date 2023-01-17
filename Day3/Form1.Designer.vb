@@ -49,7 +49,7 @@ Partial Class Form1
         Me.ContestantPool.Location = New System.Drawing.Point(12, 61)
         Me.ContestantPool.Name = "ContestantPool"
         Me.ContestantPool.Size = New System.Drawing.Size(304, 264)
-        Me.ContestantPool.TabIndex = 0
+        Me.ContestantPool.TabIndex = 4
         Me.ContestantPool.ValueMember = "GamerTag"
         '
         'PlayerDBBindingSource
@@ -68,28 +68,28 @@ Partial Class Form1
         Me.ListBox2.Location = New System.Drawing.Point(492, 61)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(232, 264)
-        Me.ListBox2.TabIndex = 1
+        Me.ListBox2.TabIndex = 5
         '
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(12, 407)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.TextBox1.TabIndex = 0
         '
         'TextBox2
         '
         Me.TextBox2.Location = New System.Drawing.Point(147, 407)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.TextBox2.TabIndex = 1
         '
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(322, 284)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(164, 41)
-        Me.Button1.TabIndex = 4
+        Me.Button1.TabIndex = 3
         Me.Button1.Text = ">> Submit into Bracket >>"
         Me.Button1.UseVisualStyleBackColor = True
         '
@@ -98,7 +98,7 @@ Partial Class Form1
         Me.Button2.Location = New System.Drawing.Point(258, 396)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(86, 41)
-        Me.Button2.TabIndex = 5
+        Me.Button2.TabIndex = 2
         Me.Button2.Text = "Add new Gamer"
         Me.Button2.UseVisualStyleBackColor = True
         '
@@ -151,7 +151,7 @@ Partial Class Form1
         Me.Button3.Location = New System.Drawing.Point(651, 377)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(73, 41)
-        Me.Button3.TabIndex = 11
+        Me.Button3.TabIndex = 6
         Me.Button3.Text = "Finalize Bracket"
         Me.Button3.UseVisualStyleBackColor = True
         '
